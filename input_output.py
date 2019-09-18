@@ -9,8 +9,8 @@
 def main():
     # calculates area and perimeter
     # input code
-    length = int(input("Enter length of the rectangle (mm): "))
-    width = int(input("Enter width of the rectangle (mm): "))
+    length = int(input("Enter rectangle length (mm): "))
+    width = int(input("Enter rectangle width (mm): "))
     # process
     area = length*width
     perimeter = 2*(length+width)
